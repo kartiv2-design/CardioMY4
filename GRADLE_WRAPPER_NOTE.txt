@@ -1,0 +1,11 @@
+ВАЖНО: gradle-wrapper.jar нужно добавить вручную.
+
+Способ 1 (если есть gradle локально):
+  gradle wrapper --gradle-version 8.4
+
+Способ 2 (скачать jar вручную):
+  Скачайте с https://github.com/gradle/gradle/raw/v8.4.0/gradle/wrapper/gradle-wrapper.jar
+  Положите в папку gradle/wrapper/
+
+Способ 3 (GitHub Actions):
+  GitHub сам загрузит всё необходимое при первом запуске — wrapper.jar не нужен!
